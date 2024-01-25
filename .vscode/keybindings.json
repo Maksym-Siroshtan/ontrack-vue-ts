@@ -1,0 +1,22 @@
+[
+  {
+    "key": "alt+shift+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "Ctrl+7",
+    "command": "editor.action.organizeImports",
+    "when": "editorHasDocumentSymbolProvider && editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "Ctrl+8",
+    "command": "editor.action.marker.prev",
+    "when": "editorFocus"
+  },
+  {
+    "key": "Ctrl+9",
+    "command": "editor.action.marker.next",
+    "when": "editorFocus"
+  }
+]
