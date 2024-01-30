@@ -5,17 +5,17 @@
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
   },
   {
-    "key": "Ctrl+7",
+    "key": "ctrl+7",
     "command": "editor.action.organizeImports",
-    "when": "editorHasDocumentSymbolProvider && editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+    "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
   },
   {
-    "key": "Ctrl+8",
+    "key": "ctrl+8",
     "command": "editor.action.marker.prev",
     "when": "editorFocus"
   },
   {
-    "key": "Ctrl+9",
+    "key": "ctrl+9",
     "command": "editor.action.marker.next",
     "when": "editorFocus"
   }
